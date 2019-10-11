@@ -63,9 +63,11 @@ distance between chars is 10 (in case of 2 or more characters).
 -   you need to install the database, so use the commands below:
 
 \$ cp env-example .env // update your database credentials
--
+
+
 \$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
--
+
+
 \$ php artisan key:generate // generate key for laravel
 
 #### Running Docker Containers

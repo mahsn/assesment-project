@@ -9,7 +9,7 @@
 
     <div class="row">
         <div class="col-md-8 order-md-1" >
-            <form method="POST" action="{{ URL::to('phrase/process/') }}" class="needs-validation">
+            <form method="POST" action="{{ URL::to('phraseanalyser/process/') }}" class="needs-validation">
             	 {{ csrf_field() }}
                 
                 <div class="mb-3">

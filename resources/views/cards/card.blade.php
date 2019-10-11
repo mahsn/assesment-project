@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-md-8 order-md-1" >
-            <form method="POST" action="{{ URL::to('cards/create/') }}" class="needs-validation">
+            <form method="POST" action="{{ URL::to('pokercalculator/create/') }}" class="needs-validation">
             	 {{ csrf_field() }}
                 <div class="mb-3">
                     <label for="username">Card Numbers</label>

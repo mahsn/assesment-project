@@ -14,10 +14,10 @@
 // Main controller
 Route::get('/', 'HomeController@index');
 
-Route::get('/cards', 'Cards\CardController@index');
-Route::post('/cards/create', 'Cards\CardCreateController@index');
-Route::get('/cards/process', 'Cards\CardProcessController@index');
-Route::get('/cards/next', 'Cards\CardNextController@index');
+Route::get('/pokercalculator', 'Cards\CardController@index');
+Route::post('/pokercalculator/create', 'Cards\CardCreateController@index');
+Route::get('/pokercalculator/process', 'Cards\CardProcessController@index');
+Route::get('/pokercalculator/next', 'Cards\CardNextController@index');
 
-Route::get('/phrase', 'Phrase\AnalyserController@index');
-Route::post('/phrase/process', 'Phrase\ProcessController@index');
+Route::get('/phraseanalyser', 'Phrase\AnalyserController@index');
+Route::post('/phraseanalyser/process', 'Phrase\ProcessController@index');

@@ -22,7 +22,7 @@
 
                     </ul>
                     @if($endProcess == false)
-                        <a href="{{ URL::to('cards/next/') }}" class="btn btn-lg btn-block btn-primary">Next Card</a>
+                        <a href="{{ URL::to('pokercalculator/next/') }}" class="btn btn-lg btn-block btn-primary">Next Card</a>
                     @endif
                 </div>
             </div>

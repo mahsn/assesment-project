@@ -5,11 +5,14 @@
 -   Install <a href= 'https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04'>Docker<a>
 -   Install <a href='https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04-quickstart'>Nginx</a>
 
-|--|--|
-| PHP| 7.2.15 |
-| MariaDB | 15.1 Distrib 10.3.14-MariaDB |
+| PHP | 7.2.15 |
+
+| Mysql |
+
 | Nginx | 1.15.10 |
+
 | Laravel | 5.8 |
+
 ### How to configure Laravel with Docker, Nginx
 
 -   How To Set Up Laravel, Nginx, and MySQL with Docker Compose <== <a href='https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose'> Configure </a> ==>
@@ -71,8 +74,8 @@ $ php artisan migrate // to create the tables inside your database, run this com
 
 use the follow URLs:
 
--   Poker Calculator: http://localhost/cards
--   Phrase Analyser: http://localhost/phrase
+-   Poker Calculator: http://localhost/pokercalculator
+-   Phrase Analyser: http://localhost/phraseanalyser
 
 #### Running the tests
 

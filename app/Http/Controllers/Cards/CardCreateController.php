@@ -35,6 +35,6 @@ class CardCreateController extends Controller
     	// Perform action to save via repository
 		$this->cardsRepository->save($generatedCards);
     	
-    	return redirect('cards/process');
+    	return redirect('pokercalculator/process');
     }
 }

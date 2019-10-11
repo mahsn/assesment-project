@@ -21,6 +21,6 @@ class CardNextController extends Controller
 	{
 		$this->cardsRepository->setLastCardAsRead();
 
-		return redirect('cards/process');
+		return redirect('pokercalculator/process');
 	}
 }

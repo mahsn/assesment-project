@@ -5,10 +5,8 @@
 -   Install <a href= 'https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04'>Docker<a>
 -   Install <a href='https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04-quickstart'>Nginx</a>
 
-| PHP | 7.2.15 |
-
+| PHP| 7.2.15 |
 | Mysql |
-
 | Nginx | 1.15.10 |
 
 | Laravel | 5.8 |
@@ -62,8 +60,8 @@ distance between chars is 10 (in case of 2 or more characters).
 
 -   you need to install the database, so use the commands below:
 
-$ cp env-example .env  // update your database credentials
-$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
+\$ cp env-example .env // update your database credentials
+\$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
 \$ php artisan key:generate // generate key for laravel
 
 #### Running Docker Containers

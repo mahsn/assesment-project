@@ -52,7 +52,7 @@ distance between chars is 10 (in case of 2 or more characters).
 
 #### How to install
 
-\$ git clone https://github.com/mahsn/youwe-docker-project.git
+\$ git clone https://github.com/mahsn/assesment-project.git
 
 -   After clone the project, inside your project folder and run composer install , this command will install Laravel and its dependencies.
 
@@ -60,7 +60,7 @@ distance between chars is 10 (in case of 2 or more characters).
 
 -   you need to install the database, so use the commands below:
 
-$ cp env-example .env // update your database credentials
+$ cp env-example .env  // update your database credentials
 $ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
 
 #### Running Docker Containers

@@ -3,7 +3,6 @@
 @section('content')
 
   	<div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="https://image.flaticon.com/icons/svg/82/82872.svg" alt="" width="72" height="72">
         <h2>Your card is <b>{!! $userCard !!}</b> with rank <b>{!! $rank !!}</b></h2>
 
     </div>

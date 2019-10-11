@@ -5,8 +5,10 @@
 -   Install <a href= 'https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04'>Docker<a>
 -   Install <a href='https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04-quickstart'>Nginx</a>
 
-| PHP| 7.2.15 |
-| Mysql |
+| PHP | 7.2.15 |
+
+| MariaDB | 15.1 Distrib 10.3.14-MariaDB
+
 | Nginx | 1.15.10 |
 
 | Laravel | 5.8 |
@@ -56,13 +58,15 @@ distance between chars is 10 (in case of 2 or more characters).
 
 -   After clone the project, inside your project folder and run composer install , this command will install Laravel and its dependencies.
 
-\$ composer install
+### \$ composer install
 
 -   you need to install the database, so use the commands below:
 
-\$ cp env-example .env // update your database credentials
-\$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
-\$ php artisan key:generate // generate key for laravel
+### \$ cp env-example .env // update your database credentials
+
+### \$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
+
+#### \$ php artisan key:generate // generate key for laravel
 
 #### Running Docker Containers
 

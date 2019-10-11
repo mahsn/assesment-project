@@ -4,7 +4,7 @@ namespace App\Repositories;
 
 use App\Repositories\Contracts\CardsRepositoryInterface;
 use App\Models\Cards;
-
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 class CardsRepository implements CardsRepositoryInterface
 {
 
@@ -94,9 +94,11 @@ class CardsRepository implements CardsRepositoryInterface
 	public function clearTable()
 	{
 	    try {
-            $this->model::truncate();
-        } catch (\Exception $e) {
-            throw new Exception($e->getMessage());
+			if(!empty($this->model)) {
+				$this->model::truncate();
+			}
+        } catch (\ExceptionHandler $e) {
+            throw new ExceptionHandler($e->getMessage());
         }
 		return true;
 	}

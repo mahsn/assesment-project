@@ -18,6 +18,9 @@ services:
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
       - app-network
+    links:
+      - webserver
+      - db
 
   #Nginx Service
   webserver:
@@ -36,7 +39,7 @@ services:
 
   #MySQL Service
   db:
-    image: mysql:5.7
+    image: mariadb:10.3
     container_name: assesmentproject-db
     restart: always
     tty: true
@@ -44,7 +47,9 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: assesmentproject
+      MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: root
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:

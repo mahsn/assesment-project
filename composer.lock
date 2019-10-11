@@ -702,40 +702,6 @@
             "time": "2019-03-30T13:22:34+00:00"
         },
         {
-            "name": "mahsn/phrase-analyser-helper",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mahsn/phrase-analyser-helper.git",
-                "reference": "35103fb4cd46abd4cf5f1b87f3416237ee30fc8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/mahsn/phrase-analyser-helper/archive/master.zip",
-                "reference": "35103fb4cd46abd4cf5f1b87f3416237ee30fc8f",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Mahsn\\PhraseAnalyser\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": ["MIT"],
-            "authors": [
-                {
-                    "name": "Fernando Alves",
-                    "email": "developer.fernando@gmail.com"
-                }
-            ],
-            "description": "Convert text to array and graph",
-            "time": "2019-04-14T17:24:31+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "1.24.0",
             "source": {

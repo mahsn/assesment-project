@@ -32,7 +32,7 @@
 
 	 @if($endProcess)
 	 <script>
-		alert('Got it, the chance was ' + {!! $percentage !!} + '%');
+		alert('Got it, the chance was ' + ' (current chance of getting the card) ' + {!! $percentage !!} + '%');
         window.location.href = '/pokercalculator';
 	</script>
 	@endif

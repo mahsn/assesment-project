@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-8 order-md-1" >
             <ult>
-                <li><a href="{{ URL::to('pokercalculator/') }}">Poker chance calculator</a></li>
+                <li><a href="{{ URL::to('pokercalculator/') }}">Poker calculator</a></li>
                 <li><a href="{{ URL::to('phraseanalyser/') }}">Phrase analyser</a></li>
             </ult>
         </div>

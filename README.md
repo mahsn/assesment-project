@@ -19,7 +19,7 @@
 
 ## About the project
 
--   Poker chance calculator
+-   Poker calculator
 -   Phrase analyser
 
 #### Poker Calculator
@@ -28,6 +28,7 @@
 Use string notation to designate cards.</p>
 
 Example:
+
 <p>
 H2-H10 - cards 2-10 of hearts
 HJ - jack of hearts
@@ -68,9 +69,7 @@ distance between chars is 10 (in case of 2 or more characters).
 
 <h5> cp env-example .env </h5> // update your database credentials
 
-
 <h5> php artisan migrate </h5> // to create the tables inside your database, run this commanf inside your docker container.
-
 
 <h5> php artisan key:generate </h5> // generate key for laravel
 

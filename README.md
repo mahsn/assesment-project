@@ -66,13 +66,13 @@ distance between chars is 10 (in case of 2 or more characters).
 
 <p> you need to install the database, so use the commands below:</p>
 
-\$ cp env-example .env // update your database credentials
+<h5> cp env-example .env </h5> // update your database credentials
 
 
-\$ php artisan migrate // to create the tables inside your database, run this commanf inside your docker container.
+<h5> php artisan migrate </h5> // to create the tables inside your database, run this commanf inside your docker container.
 
 
-\$ php artisan key:generate // generate key for laravel
+<h5> php artisan key:generate </h5> // generate key for laravel
 
 #### Running Docker Containers
 
@@ -89,4 +89,4 @@ use the follow URLs:
 
 1.  After composer installation, use the following command to run all tests:
 
-./vendor/bin/phpunit
+<h5>./vendor/bin/phpunit</h5>

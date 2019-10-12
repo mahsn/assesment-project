@@ -54,7 +54,7 @@ distance between chars is 10 (in case of 2 or more characters).
 
 #### How to install
 
-\$ git clone https://github.com/mahsn/assesment-project.git
+\$ <h3>git clone https://github.com/mahsn/assesment-project.git</h3>
 
 -   After clone the project, inside your project folder and run composer install , this command will install Laravel and its dependencies.
 

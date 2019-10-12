@@ -81,8 +81,8 @@ distance between chars is 10 (in case of 2 or more characters).
 
 use the follow URLs:
 
--   Poker Calculator: http://localhost/pokercalculator
--   Phrase Analyser: http://localhost/phraseanalyser
+-   Poker Calculator: <a href="http://localhost/pokercalculator">http://localhost/pokercalculator</a>
+-   Phrase Analyser: <a href="http://localhost/phraseanalyser">http://localhost/phraseanalyser</a>
 
 #### Running the tests
 

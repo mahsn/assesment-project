@@ -13,12 +13,12 @@
             	 {{ csrf_field() }}
                 
                 <div class="mb-3">
-                    <label for="username">Text</label>
+                    <label for="username">Digite a text to analise</label>
                     <div class="input-group">
                         <textarea name="message" class="form-control" rows="5" maxlength="255" required></textarea>
                     </div>
                 </div>
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Process</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Analise</button>
             </form>
         </div>
     </div>

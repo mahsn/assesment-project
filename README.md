@@ -24,10 +24,11 @@
 
 #### Poker Calculator
 
-Web application should calculate chance of getting desired card based on the amount of cards left.
-Use string notation to designate cards.
+<p> Web application should calculate chance of getting desired card based on the amount of cards left.
+Use string notation to designate cards.</p>
 
 Example:
+<p>
 H2-H10 - cards 2-10 of hearts
 HJ - jack of hearts
 HA - ace of hearts
@@ -40,9 +41,9 @@ Step 2. User starts drafting cards, one by one.
 Step 3. Website should display a chance of getting customer selected card on the next Draft.
 If customer selected card is drafted website should display popup with a message "Got it, the chance was
 (current chance of getting the card)%" and reset to step 1.
-
+</p>
 #### Phrase Analyser
-
+<p>
 A web application that will analyse customer input and provide some statistics.
 Runflow:
 Step 1. Customer is asked to insert a string (not longer then 255 chars)
@@ -51,16 +52,17 @@ column1 - character symbol
 column2 - how many times character encountered.
 column3 - sibling character info: character was seen standing before [list of chars], after [list of chars], longest
 distance between chars is 10 (in case of 2 or more characters).
+</p>
 
 #### How to install
 
-\$ <h5>git clone https://github.com/mahsn/assesment-project.git</h5>
+<h5>git clone https://github.com/mahsn/assesment-project.git</h5>
 
--   After clone the project, inside your project folder and run composer install , this command will install Laravel and its dependencies.
+<p> After clone the project, inside your project folder and run composer install , this command will install Laravel and its dependencies.</p>
 
-\$ composer install
+<h5>composer install</h5>
 
--   you need to install the database, so use the commands below:
+<p> you need to install the database, so use the commands below:</p>
 
 \$ cp env-example .env // update your database credentials
 

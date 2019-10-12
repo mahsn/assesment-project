@@ -42,7 +42,9 @@ Step 3. Website should display a chance of getting customer selected card on the
 If customer selected card is drafted website should display popup with a message "Got it, the chance was
 (current chance of getting the card)%" and reset to step 1.
 </p>
-#### Phrase Analyser
+
+<h3> Phrase Analyser</h3>
+
 <p>
 A web application that will analyse customer input and provide some statistics.
 Runflow:

@@ -13,10 +13,6 @@
 
 | Laravel | 5.8 |
 
-### How to configure Laravel with Docker, Nginx
-
--   How To Set Up Laravel, Nginx, and MySQL with Docker Compose <== <a href='https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose'> Configure </a> ==>
-
 ## About the project
 
 -   Poker calculator

@@ -5,13 +5,13 @@
 -   Install <a href= 'https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04'>Docker<a>
 -   Install <a href='https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04-quickstart'>Nginx</a>
 
-| PHP | 7.2.15 |
+| PHP | 7.2.\*|
 
-| MariaDB | 15.1 Distrib 10.3.14-MariaDB
+| MariaDB |
 
-| Nginx | 1.15.10 |
+| Nginx |
 
-| Laravel | 5.8 |
+| Laravel |
 
 ## About the project
 

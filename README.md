@@ -61,17 +61,17 @@ distance between chars is 10 (in case of 2 or more characters).
 
 <h5>composer install</h5>
 
-<p> you need to install the database, so use the commands below:</p>
+## Database </p>
 
 <h5> cp env-example .env </h5> // update your database credentials
-
-<h5> php artisan migrate </h5> // to create the tables inside your database, run this commanf inside your docker container.
 
 <h5> php artisan key:generate </h5> // generate key for laravel
 
 #### Running Docker Containers
 
 -   docker-compose up -d
+
+<h5> php artisan migrate </h5> // to create the tables inside your database, run this commanf inside your docker container.
 
 #### Accessing the examples:
 
